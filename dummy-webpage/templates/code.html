@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body >
+	<div>
+		<h1 style= 'margin: 300px; '>This is a dummy webpage to facilitate testing</h1>
+	</div>
+	<div id="webchat"/>
+		<script src="{{ url_for('static', filename='webchat-v0.5.9.js') }}"></script>
+		<script>
+  			WebChat.default.init({
+			    selector: "#webchat",
+			    initPayload: "hello",
+			    interval: 1500, // 1000 ms between each message
+			    customData: {"userId": "123"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+			    socketUrl: "http://35.188.182.146:5005",
+			    socketPath: "/socket.io/",
+			    title: "Suzie",
+			    subtitle: "Nakala Chatbot",
+			    inputTextFieldHint: "Type a message... ('restart' for main menu)",
+			    connectingText: "Waiting for server...",
+			    hideWhenNotConnected: false,
+			    fullScreenMode: false,
+			    profileAvatar: "{{ url_for('static', filename='ai.png') }}",
+			    openLauncherImage: "{{ url_for('static', filename='help.png') }}",
+						    closeLauncherImage: "{{ url_for('static', filename='help.png') }}",
+			    params: {
+			      images: {
+			        dims: {
+			          width: 300,
+			          height: 200,
+			        }
+			      },
+			      storage: "session"
+			    }
+			  })
+			</script>
+		
+</html>

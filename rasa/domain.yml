@@ -1,0 +1,329 @@
+intents:
+- about_us
+- affirm
+- contact_info
+- deny
+- general_info
+- get_general_info
+- get_job
+- get_training
+- goodbye
+- grade
+- grateful
+- greet
+- how_many
+- intern_data_science
+- intern_finance_dep
+- intern_marketing
+- intern_sales
+- intern_sales_markerting
+- internship
+- location_and_hours
+- mood_great
+- mood_unhappy
+- our_projects
+- our_values
+- premium_internship
+- products
+- qualification
+- question
+- recruitment
+- say_company
+- say_email
+- say_name
+- say_phone
+- say_when
+- seminar
+- seminar_types
+- start_with_greeting
+- step_back
+- to_start
+- train_style
+- training
+- want_product
+entities:
+- PERSON
+- email
+- products
+- name
+slots:
+  email:
+    type: text
+  name:
+    type: text
+  name2:
+    type: text
+  phone:
+    type: text
+templates:
+  utter_cheer_up:
+  - text: Oh no! That's too bad. But you will get better, I promise 😤️💪️
+  - text: Sad to hear that. But cheer up, all storms pass eventually 🙂️
+  utter_contact:
+  - text: 'Great! Your request has been received. Please contact us on (+254)-770
+      953 098 if you have any queries or preferences. Alternatively, you could send
+      us an email at info@nakala-analytics.co.ke . Your info {name} {phone} {email} '
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_grade:
+  - buttons:
+    - payload: First Class Honours
+      title: First Class Honours
+    - payload: Second Class Honours Upper Division
+      title: Second Class Honours - Upper Division
+    - payload: Second Class Honours Lower Division
+      title: Second Class Honours - Lower Division
+    - payload: Pass
+      title: Pass
+    text: What was your grade?
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hi! How's the going?
+  utter_happy:
+  - text: Great! Carry on...
+  - text: Awesome!
+  utter_internship_department:
+  - buttons:
+    - payload: Data Science
+      title: Data Science
+    - payload: Marketing Department
+      title: Marketing
+    - payload: Sales Division
+      title: Sales
+    text: Which of the following departments do you feel best suited for?
+  utter_job:
+  - text: Awesome! We're always on the look out for talent to beef up our team. Please
+      check out the Careers section on our website and have a look at the available
+      positions. Any new openings will also be posted there, so feel free to check
+      back later.
+  utter_qualification:
+  - buttons:
+    - payload: BSc. Computer Science
+      title: BSc. Computer Science
+    - payload: BSc. Actuarial Science
+      title: BSc. Actuarial Science
+    - payload: BSc. Statistics
+      title: BSc. Statistics
+    - payload: BSc. Mathematics
+      title: BSc. Mathematics
+    - payload: BSc. Economics & Statistics
+      title: BSc. Economics & Statistics
+    text: Which course did you pursue? (If your course is not listed, please specify
+      in full below.)
+  utter_service:
+  - buttons:
+    - payload: Products & Services
+      title: Products & Services
+    - payload: Recruitment
+      title: Recruitment
+    - payload: Training Programmes
+      title: Training Programmes
+    - title: General Information
+      payload: General Information
+    text: Which of the following services would you be interested in?... 👇️
+  utter_training:
+  - text: We offer Data Science and Data Analytics training services to equip you
+      with the skills to get the most out of your data. Which of the following services
+      interests you the most?
+    buttons:
+    - payload: Seminars and Workshops
+      title: Seminars & Workshops
+    - payload: Premium Internships
+      title: Premium Internships
+  utter_welcome:
+  - text: You're welcome 🙂️!
+  utter_intern_ds:
+  - text: Our Data Science department works tirelessly to create innovative solutions
+      😤️💪️. Just be creative and diligent, and you'll fit right in! Please email your
+      CV to info@nakala-analytics.co.ke
+  utter_intern_ma:
+  - text: Our Marketing department could always use someone enthusiastic and imaginative.
+      Please email your CV to info@nakala-analytics.co.ke
+  utter_intern_sa:
+  - text: Join our Sales team and spread the word on the amazing work we do here at
+      Nakala! Please email your CV to info@nakala-analytics.co.ke
+  utter_name:
+  - text: Hello {name2} 🙂️!
+  - text: Nice to know you, {name2}.
+  utter_phone:
+  - text: got {phone}
+  utter_email:
+  - text: got {email}
+  utter_ask_name:
+  - text: My name is Suzie, what's yours?
+  utter_ask_email:
+  - text: What's your email address?
+  utter_ask_phone:
+  - text: Please enter your phone number
+  utter_wait:
+  - text: "Great! Your request has been successfuly received \U0001F44A️\U0001F4AA\
+      ️ . We'll process it and get back to you as soon as we can. Please contact us\
+      \ on (+254)770 953 098 if you have any queries or preferences. Alternatively,\
+      \ you could send us an email at info@nakala-analytics.co.ke . Your info... Name\
+      \ {name},  phone number {phone}, email address {email} . "
+  utter_products:
+  - text: Great! Here are some of the things we can do for you...
+    buttons:
+    - title: Data Science Consulting
+      payload: Consultation
+    - title: Data Analysis
+      payload: 'Data Analysis '
+    - title: Data Visualization
+      payload: Visualization
+    - title: Machine Learning
+      payload: Machine Learning
+    - title: Artificial Intelligence
+      payload: Artificial Intelligence
+  utter_when:
+  - text: Awesome! We need just a little more information to help us customize the
+      service just for you. How soon would you like to start?
+    buttons:
+    - title: Immediately
+      payload: Begin Immediately
+    - title: Within a week
+      payload: Begin Within a week
+    - title: 1 to 4 weeks
+      payload: Begin in 1 to 4 weeks
+    - title: 1 month and over
+      payload: Begin 1 month and over
+  utter_how_many:
+  - text: How many people will benefit from this service?
+    buttons:
+    - title: 0-10
+      payload: for 0-10 people
+    - title: 11-50
+      payload: for 11-50 people
+    - title: 51-200
+      payload: for 51-200 people
+    - title: More than 200
+      payload: for More than 200 people
+  utter_your_company:
+  - text: And finally, What is the name of your company?
+  utter_will_update:
+  - text: Thanks {name2}, we will get back to you soon. Please provide your email
+      address or phone number below, so that we can reach you.
+  utter_thanks:
+  - text: Awesome! You're all done 💪️. Thank you for choosing Nakala 🙂️
+  utter_recruitment:
+  - text: Please select
+    buttons:
+    - title: Internships
+      payload: Internships
+    - title: Jobs & Careers
+      payload: Jobs & Careers
+  utter_seminar_types:
+  - text: Please select
+    buttons:
+    - title: Accounting Analytics
+      payload: Accounting Analytics
+    - title: Sales Analytics
+      payload: Sales Analytics
+    - title: Machine Learning Trainings & Workshops
+      payload: Machine Learning Trainings & Workshops
+    - title: Big Data
+      payload: Big Data
+  utter_general_info:
+  - text: Please select
+    buttons:
+    - title: About Us
+      payload: learn About Us
+    - title: Location & Office Hours
+      payload: Location & Office Hours
+    - title: Our Values
+      payload: know Our Values
+    - title: Contact information
+      payload: Contact information
+    - title: Projects & Case Studies
+      payload: Projects & Case Studies
+  utter_about_us:
+  - text: Nakala is a data analytics company headquartered and registered in Nairobi,
+      Kenya. We are a team of high tech professionals with vast experience in implementing
+      data driven solutions in the African market. We offer data analytics services
+      that empower organisations and even individuals to harness data.
+  utter_loc_hrs:
+  - text: Our offices are at Trance Towers (1st floor. Tsavo Rd, off Mombasa Rd).
+      Our office hours are 8:00am to 17:30pm
+  utter_contact_info:
+  - text: You can talk to us on (+254)770 953 098 or send us an email at info@nakala-analytics.co.ke
+  utter_projects:
+  - text: We have had numerous triumphs and success stories with our partners and
+      clients, some of which include PKF East Africa, Copy Cat Group Ltd, Vivo Active
+      Wear and The ABC Bank, among others.
+  utter_values:
+  - text: 'Our Core Values are Customer Satisfaction, Respect and Honesty. Learn more
+      about our mission, vision, service delivery strategy, team, skillset and projects
+      at https://nakala-analytics.co.ke/aboutus.html '
+  utter_back:
+  - text: Next
+    buttons:
+    - title: Back to start
+      payload: Back to start
+    - title: More general information
+      payload: More general information
+  utter_extra:
+  - text: How else can I help you?
+    buttons:
+    - title: Back to Main Menu
+      payload: Back to Start
+    - title: Ask a question
+      payload: Ask a question
+  utter_question:
+  - text: Great! Please type your question below, and we'll send you an email response
+      soon.
+  utter_alright:
+  - text: Alright {name2}, you'll be hearing from us soon
+  utter_default:
+  - text: Sorry, I didn't get that.
+    buttons:
+    - title: Try Again
+      payload: error of cognition
+    - title: Go to Main Menu
+      payload: Back to Start
+actions:
+- action_get_email
+- action_get_name
+- action_get_phone
+- utter_about_us
+- utter_alright
+- utter_ask_email
+- utter_ask_name
+- utter_ask_phone
+- utter_back
+- utter_cheer_up
+- utter_contact
+- utter_contact_info
+- utter_default
+- utter_did_that_help
+- utter_email
+- utter_extra
+- utter_general_info
+- utter_goodbye
+- utter_grade
+- utter_greet
+- utter_happy
+- utter_how_many
+- utter_intern_ds
+- utter_intern_ma
+- utter_intern_sa
+- utter_internship_department
+- utter_job
+- utter_loc_hrs
+- utter_name
+- utter_phone
+- utter_products
+- utter_projects
+- utter_qualification
+- utter_question
+- utter_recruitment
+- utter_seminar_types
+- utter_service
+- utter_thanks
+- utter_training
+- utter_values
+- utter_wait
+- utter_welcome
+- utter_when
+- utter_will_update
+- utter_your_company

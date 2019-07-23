@@ -1,0 +1,1725 @@
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- alright
+- sure
+
+## intent:step_back
+- [error of cognition]
+- [Error of cognition]
+- [Error in cognition]
+
+## intent:products
+- Products & Services
+- products and services
+- services
+- products
+
+## intent:want_product
+- [Consultation](products)
+- [consultation]
+- [Visualization](products)
+- [data visualization]
+- [Data Analysis ](products)
+- [data analysis]
+- [Machine Learning](products)
+- [Artificial intelligence](products)
+
+## intent:say_when
+- [Begin Immeditely]
+- [Begin Within a week]
+- [Begin in 1 to 4 weeks]
+- [Begin 1 month and over]
+- [ months]
+- [days]
+- [Today]
+
+
+## intent:how_many
+- [for 1-10 people]
+- [for 11-50 people]
+- [for 51-200 people]
+- [for More than 200 people]
+
+## intent:say_company
+- [holdings ltd]
+- [limited]
+- [ltd]
+- [company]
+- [Ltd.]
+- [Africa limited]
+
+## intent:recruitment
+- [Recruitment]
+- [Recruits]
+- [New Recruitments]
+- [recruitment]
+
+## intent:get_job
+- [Jobs & Careers]
+- [jobs & careers]
+- [Careers]
+
+
+## intent:general_info
+- [General Information]
+- [general information]
+- [More General Information]
+- [More general information]
+
+## intent:about_us
+- [learn About Us]
+- [learn about us]
+- [Learn About Us]
+
+## intent:question
+- [Ask a question]
+- [ask a question]
+- [Ask a Question]
+- [What is the]
+- [How can i]
+- [where is the]
+- [who is the]
+- [when does]
+
+## intent:to_start
+- [Back to start]
+- [back to the start]
+- [back to the beginning]
+- [Restart]
+- [restart]
+- [restart]
+- [back to start]
+- [Back to the start]
+- [Back to start]
+- [main menu]
+
+## intent:location_and_hours
+- [Location & Office Hours]
+- [location]
+- [where is your office?]
+
+## intent:our_values
+- [know Our Values]
+- [our Mission]
+- [know our Vision]
+
+## intent:contact_info
+- [Contact information]
+- [Contacts]
+- [contact info]
+
+## intent:our_projects
+- [Projects & Case Studies]
+- [projects and case studies]
+- [Case studies]
+
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:get_training
+- [Trainings] 
+- [Training Programmes]
+- [training programmes]
+- [Training]
+
+## intent:seminar
+- [Seminars & Worshops]
+- [seminars & workshops]
+- [Seminars and workshops]
+
+## intent:premium_internship
+- [Premium Internships]
+- [Premium intern]
+- [premier internships]
+
+## intent:seminar_types
+- [Accounting Analytics]
+- [accounting analytics]
+- [Big Data]
+- [big data]
+- [Sales Analytics]
+- [sales analytics]
+- [Machine Learning Training & Workshops]
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:grade
+- First Class Honours
+- Second Class Honours Upper Division
+- Second Class Honours Lower Division
+- Pass
+- Second Upper
+
+## intent:grateful
+- thanks
+- [thank you]
+- [thank]
+- [Thanks]
+- [Thank you so much]
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- ahoy
+- hallo
+- [hey there]
+- [Hi!]
+- [Hey!]
+- [Hello, there]
+
+## intent:intern_data_science
+- [data science]
+- [Data Science]
+- [Data science]
+- [data Science]
+
+## intent:intern_sales
+- [Sale Division]
+- [sales division]
+- [Sales Division]
+
+
+## intent:intern_marketing
+- [marketing department]
+- [Marketing Department]
+- [Marketing]
+
+
+## intent:internship
+- [internship]
+- [Internship Request]
+- [request for internship]
+- [intern request]
+- [intern]
+
+
+## intent:mood_great
+- [perfect]
+- very good
+- great
+- amazing
+- wonderful
+- [wonderful, thanks]
+- I am feeling very good
+- I am great
+- I'm good
+- im great
+- i'm great
+- the going is good
+- the going is great
+- not so bad
+- good
+- Good
+- [i'm fine, thanks]
+- [i'm fine]
+- [im okay, thanks]
+- [i'm okay]
+- [nice, thanks]
+- [awesome]
+- [alright]
+- [fine thanks]
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- [not very good]
+- extremely sad
+- so sad
+- [not so good]
+
+## intent:qualification
+- BSc.
+- Bachelor of Science
+- Diploma
+- BSc.
+- BSc. Data Science
+- BSc. Computer Science
+- data science
+- BSc. Information Technology
+- BSc.
+- BSc. Mathematics
+- Bachelor of Commerce
+- BSc. Economics
+- Bachelor of Arts
+- BSc. Economics & Statistics
+- BSc. Actuarial Science
+- BSc. Statistics
+- BSc.
+
+## intent:say_email
+- [@](email)
+- [@hotmail.com](email)
+- [@gmail.com](email)
+- [@yahoo.com](email)
+- [@outlook.com](email)
+- StephanChitty@outlook.com
+- Dong.Everts1992@gmail.com
+- Emory_Vigil@outlook.com
+- Blake_Mcpheeters@yahoo.com
+- Francesco_Bradstreet@gmail.com
+- Nelson_Lovering@yahoo.com
+- ChungClick@gmail.com
+- LuigiElkington@gmail.com
+- Arron_Zemlicka@gmail.com
+- Edmond_Swope@gmail.com
+- SamSmithwick@gmail.com
+- Frank.Devereaux@yahoo.com
+- Renato.Meng@yahoo.com
+- Ryan.Gracie@yahoo.com
+- Jacob.Drone@outlook.com
+- Hung.Stroop@yahoo.com
+- Carroll.Pizano@gmail.com
+- VictorLeaf@yahoo.com
+- Sydney.Huitt@yahoo.com
+- AmosPuskar@gmail.com
+- Edmundo.Chavera@yahoo.com
+- Shawn_Dvorak56@outlook.com
+- Milan.Spielman@yahoo.com
+- Paul.Cambron@gmail.com
+- Rodrick.Litchfield@gmail.com
+- EliasHuie@gmail.com
+- Rigoberto.Shibley@yahoo.com
+- AshleySantee99@yahoo.com
+- Zachery.Gowers@outlook.com
+- Lamar_Mcdonnell@gmail.com
+- Samual.Hepner@outlook.com
+- Aubrey_Sum@outlook.com
+- MerlinMcgivney@gmail.com
+- CarlDelahanty@yahoo.com
+- KeithPullen@gmail.com
+- Rocco.Mullings@gmail.com
+- Nigel.Troutt@outlook.com
+- BertramJoiner@outlook.com
+- Wilber_Maggart@yahoo.com
+- Jeremy_Laroque@gmail.com
+- JessieLiles@outlook.com
+- Buford_Messing@yahoo.com
+- DustinDaubert@yahoo.com
+- HarleyFutch@outlook.com
+- Damien_Vadnais@yahoo.com
+- Leslie_Orner@gmail.com
+- Wm_Milsap@gmail.com
+- Gavin.Spooner@gmail.com
+- Bryce_Noggle@gmail.com
+- Lou_Alderete@yahoo.com
+- Loreta.Pink@gmail.com
+- GeraldineMalecha@outlook.com
+- Eneida.Thach@yahoo.com
+- Jade.Ballerini@gmail.com
+- BethanyShumway@gmail.com
+- Jacquetta_Gilstrap@yahoo.com
+- Maira.Ploss@gmail.com
+- MitzieBosco@gmail.com
+- Jenee.Kontos@outlook.com
+- Lula.Reinsch@outlook.com
+- Theressa_Stehlik@yahoo.com
+- GoldaKoeppel@outlook.com
+- Carmelina_Poplawski@outlook.com
+- Cleotilde.Pape@outlook.com
+- Rachele.Schimpf@gmail.com
+- Honey.Joye@gmail.com
+- HedyColoma@gmail.com
+- Lala.Ogren@outlook.com
+- Ka.Police@yahoo.com
+- Soo_Lederer@gmail.com
+- VaniaBillick@yahoo.com
+- Codi_Mccallie@outlook.com
+- YesseniaJeppson@yahoo.com
+- Teodora_Bickley@gmail.com
+- JoiPaules@outlook.com
+- CandaceYahn@gmail.com
+- Shae.Vita@gmail.com
+- Annabel.Wolter@yahoo.com
+- Saundra.Baty@gmail.com
+- DominicaKeller@gmail.com
+- Keira.Burts@gmail.com
+- GenevaBenz@outlook.com
+- Tosha_Louque@gmail.com
+- Heidy_Sholtis@gmail.com
+- Yasmin_Spruill@yahoo.com
+- Chantay_Nakayama@outlook.com
+- Assunta_Vandenburg@outlook.com
+- Kathy_Beverley@outlook.com
+- Katharina_Goldberg@outlook.com
+- Hallie.Richert@gmail.com
+- Nguyet_Hieb@outlook.com
+- Dodie_Krall@yahoo.com
+- MandieAbbott@gmail.com
+- AlishaGrimmer@outlook.com
+- GeralynHedley@outlook.com
+- AngelicNellis@outlook.com
+- Josette_Rodas@gmail.com
+- DianRison@gmail.com
+- SusanJakubowski@gmail.com
+- Remedios_Lagos@yahoo.com
+- abewo@yahoo.com
+- jackymusyoka@yahoo.com
+- tomouma@outlook.com
+- simonkamau25@gmail.com
+- mramba@yahoo.com
+
+## intent:say_name
+- [Jackson](PERSON)
+- [Sally Smith](PERSON)
+- [Abubakar Omar](PERSON)
+- [Chan Lee](PERSON)
+- [Alexander Morales](PERSON)
+- John
+- Samuel
+- Peter
+- Dennis
+- Erick
+- Joseph
+- Stephen
+- David
+- James
+- Michael
+- Mary
+- Mercy
+- Caroline
+- Elizabeth
+- Jane
+- Maureen
+- Ann
+- Esther
+- Lillian
+- Faith
+- Mwangi
+- Maina
+- Otieno
+- Kamau
+- Njoroge
+- Kariuki
+- Odhiambo
+- Ochieng
+- Kimani
+- Omondi
+- Onyango
+- Wanjiru
+- Njuguna
+- Macharia
+- Juma
+- Mutua
+- Njeri
+- Wambui
+- Karanja
+- Wanjiku
+- Mohammed
+- Muthoni
+- Chege
+- Wambua
+- Ouma
+- Mbugua
+- Waweru
+- Wachira
+- Wafula
+- Ngugi
+- Ndungu
+- Atieno
+- Mburu
+- Mwaura
+- Gitau
+- Kinyua
+- Mutuku
+- Kibet
+- Cheruiyot
+- Akinyi
+- Ali
+- Achieng
+- Mungai
+- Muriithi
+- Njeru
+- Gitonga
+- Musyoka
+- Simiyu
+- Nyaga
+- Abdi
+- Hassan
+- Mugo
+- Njenga
+- Owino
+- Irungu
+- Koech
+- Okoth
+- Wairimu
+- Nyambura
+- Mwaniki
+- Muriuki
+- Kinyanjui
+- Wangui
+- Kioko
+- Barasa
+- Rotich
+- Adhiambo
+- Njoki
+- Oduor
+- Munene
+- Kuria
+- Wanjala
+- Muchiri
+- Wangari
+- Langat
+- Nyaga
+- Chebet
+- Ndegwa
+- Wekesa
+- Kyalo
+- Mutinda
+- Korir
+- Kirui
+- Wainaina
+- Ng'ang'a
+- Ndung'u
+- Ahmed
+- Kiprotich
+- Muli
+- Wanyonyi
+- Wanjohi
+- Hussein
+- Chepkemoi
+- Githinji
+- Shah
+- Muiruri
+- Ndirangu
+- Anyango
+- Njagi
+- Mutisya
+- Wambugu
+- Mwendwa
+- Awuor
+- Kiptoo
+- Kipkoech
+- Njogu
+- Nyongesa
+- Mutai
+- Kiarie
+- Mugambi
+- Kimutai
+- Okumu
+- Mwenda
+- Chepkoech
+- Momanyi
+- Okello
+- Rono
+- Murithi
+- Chelangat
+- John
+- Kimathi
+- Kiprono
+- Opiyo
+- Peter
+- Nderitu
+- Kemboi
+- kinuthia
+- Muturi
+- Bett
+- Makau
+- Cherotich
+- Ibrahim
+- Odongo
+- Maingi
+- Musyoki
+- Oluoch
+- Mwai
+- Makokha
+- Ogola
+- Bosire
+- Kamande
+- Oketch
+- Nduta
+- Kimutai
+- Kanyi
+- Mwangangi
+- Tanui
+- Kiplagat
+- Ouko
+- Omar
+- Njue
+- Musembi
+- Wanyama
+- Chebet
+- Muia
+- Kerubo
+- Kiptoo
+- Kibe
+- Kennedy
+- Okeyo
+- Mueni
+- Thuku
+- Mbuthia
+- Owiti
+- Ngigi
+- Opondo
+- Sang
+- Mbithi
+- Oyugi
+- Murimi
+- Odera
+- Mumo
+- Mumbi
+- Nyongesa
+- Nzioka
+- Ngari
+- Kimeu
+- Wanyoike
+- Omollo
+- Makori
+- Ngetich
+- Kilonzo
+- Kihara
+- Awuor
+- Ngure
+- Mutunga
+- Murage
+- Kemboi
+- Muigai
+- Mulwa
+- Mbogo
+- Ahmed
+- Kiragu
+- Nyakundi
+- Karani
+- Muema
+- Moraa
+- Gichuki
+- Wanja
+- Njau
+- Mutiso
+- Musyoki
+- Musyoka
+- Njiru
+- Munyao
+- Musau
+- Mwende
+- Waithaka
+- Oloo
+- Thuo
+- Owuor
+- Karimi
+- Wanjala
+- Wahome
+- Odongo
+- Ogutu
+- Oluoch
+- Ochieng
+- Hussein
+- Mathenge
+- Maingi
+- Muturi
+- Okumu
+- Kyalo
+- Were
+- Opiyo
+- Ali
+- Muiruri
+- Korir
+- Njogu
+- Ndirangu
+- Nderitu
+- Akinyi
+- Wainaina
+- Njoki
+- Patel
+- Kioko
+- Kirui
+- Githinji
+- Gichini
+- Hassan
+- Wairimu
+- Muchiri
+- Ndegwa
+- Munene
+- Mwaniki
+- Muriuki
+- Kinyanjui
+- Kuria
+- Ouma
+- Gitonga
+- Mwaura
+- Wanjiku
+- Karanja
+- Waweru
+- Onyango
+- Faith
+- Mercy
+- Linda
+- Pauline
+- Joan
+- Melanie
+- Lucy
+- Lisa
+- Rose
+- Vivian
+- Stephanie
+- Harriet
+- Amanda
+- Rachael
+- Lynn
+- Sandra
+- Fatuma
+- Patricia
+- Naomi
+- Sarah
+- Beatrice
+- Shirley
+- Amy
+- Gloria
+- Irene
+- Sally
+- Priscilla
+- Liz
+- Purity
+- Margaret
+- Sylvia
+- Lilly
+- Fridah
+- Petronilla
+- Nella
+- Bernice
+- Jackie
+- Hellen
+- Shamsa
+- Catherine
+- Kristy
+- Alex
+- Arlene
+- Caren
+- Karen
+- Millicent
+- Laureen
+- Claudia
+- Stacy
+- Jenipher
+- Teresiah
+- Ruphiner
+- Rophence
+- Evelyn
+- Ella
+- Doreen
+- Diana
+- Idah
+- Edith
+- Shelmith
+- Victoria
+- Crystabell
+- Jamila
+- Nikki
+- Emmanuella
+- Asunta
+- Molly
+- Tracy
+- Felicity
+- Tanya
+- Bellinda
+- Faridah
+- Noelle
+- Bianca
+- Audrey
+- Loise
+- Claire
+- Sharon
+- Isabel
+- Damaris
+- Alice
+- Janet
+- Susan
+- Annitah
+- Joy
+- Grace
+- Eve
+- Dorah
+- Phoebe
+- Tabitha
+- Koki
+- Megan
+- Cindy
+- Julie
+- Nelly
+- Barbara
+- Annabelle
+- June
+- Shirleen
+- Judith
+- Bridget
+- Naomi
+- Veronica
+- Gladys
+- Wilfridah
+- Linsay
+- Betty
+- Lucy
+- Abigail
+- Scholastica
+- Laura
+- kelen
+- Peninah
+- Eunice
+- Melanie
+- Melody
+- Adriana
+- Beverlyne
+- Mona
+- Alycia
+- Melvine
+- Celine
+- Cecelia
+- Deborah
+- Benta
+- Olive
+- Olivia
+- Winnie
+- Judy
+- Angela
+- Kelly
+- Belinda
+- Valentine
+- Hildah
+- Saumu
+- Marion
+- Cynthia
+- Kelsey
+- Chelsea
+- Nancy
+- Yvonne
+- Jackline
+- Hildah
+- Terry
+- Nicole
+- Lorraine
+- Ruth
+- Shiro
+- Aisha
+- Jeanette
+- janet
+- Maureen
+- Michelle
+- Martha
+- Maxine
+- Gina
+- Joyce
+- Verah
+- Tyra
+- Kayla
+- Viola
+- Violet
+- Briana
+- Essie
+- Norah
+- Nia
+- Dorcas
+- Asenah
+- carol
+- Chelsea
+- Maryanne
+- Stella
+- Ashley
+- Kiki
+- Abby
+- Ellen
+- Miriam
+- Mariam
+- Luisa
+- Nadia
+- Annette
+- Rebecca
+- Joan
+- Imani
+- Maya
+- Scola
+- Immaculate
+- Jacinta
+- Elanor
+- James
+- Martin
+- Victor
+- Simon
+- George
+- Eric
+- Ken
+- Edwin
+- Boniface
+- Leon
+- Alfred
+- Clemment
+- Reagan
+- Evans
+- Enock
+- Henry
+- Jeremy
+- Steve
+- Benson
+- Francis
+- Joe
+- Joseph
+- Mike
+- Chris
+- christopher
+- Oiver
+- Gerald
+- Craig
+- Wycliffe
+- Eddy
+- Davis
+- Cornelius
+- Sidney
+- Dominic
+- Harry
+- Ronald
+- Issa
+- Alphonce
+- Alvin
+- Gabriel
+- Gibson
+- Bonny
+- Collins
+- Derrick
+- Ronnie
+- Garry
+- Rashid
+- Lennox
+- Alphonce
+- Mustafa
+- Dave
+- Bonaventure
+- Zakaria
+- Hezbon
+- Wilberforce
+- Tevin
+- Ben
+- Benson
+- Caleb
+- Lawrence
+- Stanley
+- Walter
+- Eli
+- Shaban
+- Cleo
+- Shadrack
+- Yusuf
+- Lewis
+- Abdul
+- Jerry
+- Miguel
+- Mahmoud
+- Tyson
+- Livingstone
+- Ted
+- Bill
+- Louis
+- Nicholas
+- Elroy
+- Leroy
+- Bravin
+- Ryan
+- Absalom
+- Frank
+- Frankline
+- Nicodemus
+- Jack
+- Bramwell
+- Anthony
+- Katana
+- Ismail
+- Iyan
+- Moses
+- Travis
+- Jamal
+- Dean
+- Jeoffrey
+- Jeff
+- Cyril
+- Douglas
+- Levy
+- Patrick
+- Graham
+- Timothy
+- Tim
+- Robert
+- David
+- Kevin
+- Kelvin
+- Patrick
+- Emmanuel
+- Paul
+- Elvis
+- Charles
+- Stephen
+- Shem
+- Seth
+- Tony
+- Meshack
+- Sylvester
+- Brian
+- Vincent
+- Julius
+- Maurice
+- Richard
+- Duncan
+- Benjamin
+- Sam
+- Elijah
+- Isaac
+- Titus
+- Sammy
+- Jason
+- Job
+- Hillary
+- Boaz
+- Carl
+- Okoth
+- Maitha
+- Mogeni
+- Kiprop
+- Eliud
+- Melvin
+- Phillip
+- Shawn
+- Sean
+- Ainea
+- Lemayan
+- Fidelis
+- Morgan
+- Lucas
+- Daniel
+- Dan
+- Solomon
+- Amos
+- Abubakar
+- Prestone
+- Earnest
+- Levin
+- Wilson
+- Noor
+- Sebastian
+- Frederick
+- red
+- Raj
+- Tareeq
+- Luke
+- James
+- Jamie
+- Ezrah
+- Johny
+- Leakey
+- Jean Bosco
+- Nigel
+- Kerry
+- Andrew
+- Cliffordd
+- Fidel
+- Jonathan
+- Agumba
+- Williams
+- Liam
+- Muriungi
+- Christian
+- Ray
+- Phanuel
+- Phyllis
+- Cedrick
+- Erastus
+- Nehemiah
+- Hans
+- Mario
+- Dickson
+- Sharrif
+- Imran
+- Bernard
+- Rodgers
+- Gilbert
+- Nick
+- Hezekiah
+- Morris
+- Nelson
+- Mark
+- Matthew
+- Teddy
+- Eugene
+- Felix
+- Joram
+- jacky musyoka
+- Tom Ouma
+- Simon Kamau Wachira
+- [Anthony Alvin](name)
+- [Sally Mariam](name)
+- [Kinyua Purity](name)
+- [Chebet Bravin](name)
+- [Murage Muturi](name)
+- [Alfred Sammy](name)
+- [Lucas Kihara](name)
+- [Njogu Gladys](name)
+- [Shirleen Abigail](name)
+- [Victoria Peter](name)
+- [kelen Elanor](name)
+- [Dickson Ndirangu](name)
+- [Onyango Violet](name)
+- [Christian Mwai](name)
+- [Frederick Barasa](name)
+- [Prestone Viola](name)
+- [Bridget Rashid](name)
+- [Cheruiyot Lennox](name)
+- [Njenga Muli](name)
+- [Stanley Kerry](name)
+- [Nderitu Njuguna](name)
+- [Maryanne Amos](name)
+- [Jamie Sidney](name)
+- [Alex kinuthia](name)
+- [Graham Lennox](name)
+- [Ella Lucas](name)
+- [Rophence Shadrack](name)
+- [Faridah Tanya](name)
+- [Ndegwa Ray](name)
+- [Maureen Norah](name)
+- [Dorcas Leon](name)
+- [James Morgan](name)
+- [Langat Sidney](name)
+- [Kiptoo Winnie](name)
+- [Kelsey James](name)
+- [Cyril Chege](name)
+- [Sharrif Maurice](name)
+- [Hildah Mike](name)
+- [Frederick Wekesa](name)
+- [Mwende Odera](name)
+- [Lorraine Caleb](name)
+- [Jack Issa](name)
+- [Awuor Esther](name)
+- [Evelyn Stephanie](name)
+- [Tracy Muriuki](name)
+- [Kamau Imani](name)
+- [Muriungi Veronica](name)
+- [Travis Patrick](name)
+- [Boaz Oluoch](name)
+- [Munene Valentine](name)
+- [Chelangat Akinyi](name)
+- [Ronald Okeyo](name)
+- [Akinyi Patrick](name)
+- [Joram Judy](name)
+- [Kelly Njeru](name)
+- [Dominic Nikki](name)
+- [Gichuki Wanjiku](name)
+- [Derrick Jeff](name)
+- [Isaac Ndirangu](name)
+- [Kevin Rose](name)
+- [Kirui Dorah](name)
+- [Kiprotich Benson](name)
+- [Jamal Jeremy](name)
+- [Zakaria Shiro](name)
+- [Abubakar Titus](name)
+- [Muriungi Omondi](name)
+- [Petronilla Mwangangi](name)
+- [Chepkoech Murithi](name)
+- [Eddy Omondi](name)
+- [Okello Wambui](name)
+- [Mbogo Scola](name)
+- [janet Sammy](name)
+- [Njoroge Shiro](name)
+- [Kioko Joy](name)
+- [Wilson Dickson](name)
+- [jacky musyoka Mburu](name)
+- [Judy Wanjiku](name)
+- [Arlene Ezrah](name)
+- [Faith Mugambi](name)
+- [Jack Rono](name)
+- [Karani Tracy](name)
+- [Nderitu Kyalo](name)
+- [Purity Bravin](name)
+- [Okumu Harriet](name)
+- [Ibrahim Ouko](name)
+- [Maureen Tanya](name)
+- [Kibe Harry](name)
+- [Chepkoech Momanyi](name)
+- [John Wambui](name)
+- [carol Wanjiru](name)
+- [Barasa Nyaga](name)
+- [Eunice Rose](name)
+- [Cheruiyot Mary](name)
+- [Musyoki Megan](name)
+- [Juma Lynn](name)
+- [Liam Maingi](name)
+- [Robert Sally](name)
+- [Cheruiyot Winnie](name)
+- [Mugambi Marion](name)
+- [Adhiambo Alvin](name)
+- [Noelle Collins](name)
+- [James Sebastian](name)
+- [Rebecca Isabel](name)
+- [Shirleen Jackline](name)
+- [Amos Joram](name)
+- [Chebet Opiyo](name)
+- [Ogola Ismail](name)
+- [Caroline Mbuthia](name)
+- [Loise Patricia](name)
+- [Walter Barasa](name)
+- [Jackline Rebecca](name)
+- [Mwenda Kayla](name)
+- [Abby Chebet](name)
+- [Otieno Pauline](name)
+- [Peninah Shirleen](name)
+- [Asenah Lucas](name)
+- [Njuguna Wambugu](name)
+- [Okeyo Kioko](name)
+- [Maya Solomon](name)
+- [Mwangangi Benson](name)
+- [Luke Muiruri](name)
+- [Isaac Joan](name)
+- [Kristy Williams](name)
+- [Wanyoike Kuria](name)
+- [Njuguna Fidel](name)
+- [Nicholas Rotich](name)
+- [Wangui Stephanie](name)
+- [Omondi Edith](name)
+- [Martha Eugene](name)
+- [Wilfridah Hans](name)
+- [Levin Mike](name)
+- [Kipkoech Mariam](name)
+- [Otieno Graham](name)
+- [Mutinda Amos](name)
+- [Garry Diana](name)
+- [Njuguna Shirley](name)
+- [Nyongesa Julie](name)
+- [Adhiambo Jeremy](name)
+- [Erick Njoki](name)
+- [Henry Nella](name)
+- [Hezekiah Ibrahim](name)
+- [Eddy Scola](name)
+- [Felix Okoth](name)
+- [Chepkoech Emmanuella](name)
+- [Doreen Fidel](name)
+- [Rophence Ruphiner](name)
+- [Oduor Gichuki](name)
+- [Morris Rophence](name)
+- [Ng'ang'a Mutua](name)
+- [Bett Bernard](name)
+- [Kioko Mary](name)
+- [Maingi Nderitu](name)
+- [Ngure Kihara](name)
+- [Cecelia Catherine](name)
+- [Ella Elijah](name)
+- [Thuku Naomi](name)
+- [Joy Wilberforce](name)
+- [Joram Molly](name)
+- [Shirley Bernice](name)
+- [Gladys Kiragu](name)
+- [Robert Kuria](name)
+- [Eric Muigai](name)
+- [Charles Makori](name)
+- [Kanyi Hussein](name)
+- [Enock Reagan](name)
+- [Ndegwa Okumu](name)
+- [Muiruri Tareeq](name)
+- [Elijah janet](name)
+- [Tareeq Elizabeth](name)
+- [Yusuf Mwaniki](name)
+- [Tevin Peter](name)
+- [Martin Tom Ouma](name)
+- [Joe Peter](name)
+- [Murage Mariam](name)
+- [Mwangi Chelsea](name)
+- [Collins Ryan](name)
+- [James Timothy](name)
+- [Samuel Oyugi](name)
+- [Erick Dorcas](name)
+- [Ndirangu Oiver](name)
+- [Makau Samuel](name)
+- [Lilly Ashley](name)
+- [Vincent Joe](name)
+- [Craig Patricia](name)
+- [Koech Michael](name)
+- [Mona Mutai](name)
+- [Kayla Kayla](name)
+- [Opiyo Bramwell](name)
+- [Odhiambo James](name)
+- [Shaban Steve](name)
+- [Cliffordd Wangari](name)
+- [David Juma](name)
+- [Tanui Tanui](name)
+- [Teddy Ali](name)
+- [Valentine Benson](name)
+- [Okello Kyalo](name)
+- [Scola Lennox](name)
+- [Murimi Victor](name)
+- [Oloo Claudia](name)
+- [Melanie Wycliffe](name)
+- [June Barbara](name)
+- [Njagi Job](name)
+- [Nzioka Eliud](name)
+- [Ogola Jack](name)
+- [Dan Wilfridah](name)
+- [Leon Ellen](name)
+- [Waweru Duncan](name)
+- [Stephen Muthoni](name)
+- [Craig Dickson](name)
+- [Wanjiru Tevin](name)
+- [Wanjala Yusuf](name)
+- [Norah Williams](name)
+- [Muturi Musau](name)
+- [Stephen Derrick](name)
+- [Laureen Veronica](name)
+- [Odera Johny](name)
+- [Tabitha Nicodemus](name)
+- [Nyongesa Asunta](name)
+- [Sarah Barbara](name)
+- [Rebecca Shamsa](name)
+- [janet Benjamin](name)
+- [Munene Ndirangu](name)
+- [Kyalo Kelly](name)
+- [Kerubo Robert](name)
+- [Timothy Muchiri](name)
+- [Lucas Benjamin](name)
+- [Teresiah Collins](name)
+- [Margaret Steve](name)
+- [Sylvester Gitonga](name)
+- [Nyakundi Kanyi](name)
+- [Amanda Mercy](name)
+- [Ronald Njoki](name)
+- [Wambugu Bianca](name)
+- [Lorraine Muiruri](name)
+- [Imran James](name)
+- [Lucy Luke](name)
+- [Nicholas Leon](name)
+- [Njiru Luke](name)
+- [Wanjiku Dean](name)
+- [Oluoch Chepkemoi](name)
+- [Ndegwa Earnest](name)
+- [Beverlyne Muriithi](name)
+- [Bett Yusuf](name)
+- [Enock Nyakundi](name)
+- [Ahmed Wairimu](name)
+- [Lucy Maryanne](name)
+- [Bill Nyakundi](name)
+- [Odongo Ken](name)
+- [Enock kinuthia](name)
+- [Lucy Waweru](name)
+- [Okoth Sam](name)
+- [Bridget Akinyi](name)
+- [Njoki Priscilla](name)
+- [Mumo Gibson](name)
+- [Daniel Audrey](name)
+- [Fidel Nigel](name)
+- [Tanya Mwende](name)
+- [Nelly Tom Ouma](name)
+- [Betty Ndirangu](name)
+- [Owino Morgan](name)
+- [Derrick Opondo](name)
+- [Rashid Tanya](name)
+- [Ndirangu Francis](name)
+- [Abdul Wachira](name)
+- [Wilson Mwaniki](name)
+- [Tracy Mwenda](name)
+- [Kemboi Abby](name)
+- [Ouma Nehemiah](name)
+- [Kioko Faith](name)
+- [Cindy Jean Bosco](name)
+- [Molly Sean](name)
+- [Kevin Maitha](name)
+- [Njiru Peninah](name)
+- [Julius Wangui](name)
+- [James Belinda](name)
+- [Kiplagat Liam](name)
+- [Beverlyne Sharrif](name)
+- [Bosire Ogutu](name)
+- [Issa Ismail](name)
+- [Wanyonyi Martha](name)
+- [Luke Shem](name)
+- [Kinyanjui Mutai](name)
+- [Wachira Shem](name)
+- [Kinyua Macharia](name)
+- [Melvine Sally](name)
+- [Kanyi Caleb](name)
+- [Kimeu Jeanette](name)
+- [Tom Ouma Hans](name)
+- [Mwangangi Mahmoud](name)
+- [Bellinda Miguel](name)
+- [Tom Ouma Ngari](name)
+- [Briana Simon Kamau Wachira](name)
+- [Nadia Ogutu](name)
+- [Evelyn Macharia](name)
+- [Elroy Chepkemoi](name)
+- [Ouko christopher](name)
+- [Ogutu Irungu](name)
+- [Gerald Henry](name)
+- [Mary Mulwa](name)
+- [Patrick Felicity](name)
+- [Mwaniki Mike](name)
+- [Issa Moses](name)
+- [Kinyua Eve](name)
+- [Frank Shem](name)
+- [Kioko Millicent](name)
+- [Kerubo Lucas](name)
+- [Isabel Wilson](name)
+- [Ronald Sylvia](name)
+- [Kristy Naomi](name)
+- [Dan Linsay](name)
+- [Mahmoud Priscilla](name)
+- [Kerubo Naomi](name)
+- [Njeri Ibrahim](name)
+- [Moses Fidelis](name)
+- [Faridah Kimathi](name)
+- [Muchiri Alfred](name)
+- [Simiyu janet](name)
+- [Leroy Wanjiku](name)
+- [Were Felix](name)
+- [Chris Wilberforce](name)
+- [Adriana Mercy](name)
+- [Diana Ali](name)
+- [Dan Sam](name)
+- [Wanjiku Ben](name)
+- [Mbogo Jeanette](name)
+- [Odhiambo Kinyua](name)
+- [Stella Katana](name)
+- [Adhiambo Cherotich](name)
+- [Alice Mutai](name)
+- [Emmanuel Lucas](name)
+- [Sylvester Melanie](name)
+- [Nzioka Kinyanjui](name)
+- [Muli June](name)
+- [Eunice Mohammed](name)
+- [Wycliffe Judith](name)
+- [Nyaga Teresiah](name)
+- [Alice Lewis](name)
+- [Tanya Kiprop](name)
+- [Munene Muchiri](name)
+- [Amy Frank](name)
+- [Absalom Okumu](name)
+- [Ashley Ngure](name)
+- [Gina Nyambura](name)
+- [Eunice Kimutai](name)
+- [Imran Doreen](name)
+- [Eve Ndungu](name)
+- [Maryanne Terry](name)
+- [Jackline Tareeq](name)
+- [Zakaria Fatuma](name)
+- [Ben Elizabeth](name)
+- [Benson Jason](name)
+- [Janet Christian](name)
+- [Ray Rashid](name)
+- [Nyongesa Ellen](name)
+- [Nyongesa Dorah](name)
+- [Wanja Sharon](name)
+- [kinuthia Wambugu](name)
+- [Mwenda Rebecca](name)
+- [Moses Kimathi](name)
+- [Ahmed Odera](name)
+- [Lucy Tracy](name)
+- [Christian Sean](name)
+- [Nicole Kelly](name)
+- [Wambua Chebet](name)
+- [Mbogo Karimi](name)
+- [Mark Muchiri](name)
+- [Levy Peninah](name)
+- [Martin Kioko](name)
+- [Brian Doreen](name)
+- [Alice Jenipher](name)
+- [Hassan Dennis](name)
+- [Frederick Njeru](name)
+- [Wanjiku Wahome](name)
+- [Shamsa Jackline](name)
+- [Ndegwa Okumu](name)
+- [Oluoch Stephen](name)
+- [Wanyoike Lucy](name)
+- [Hans Thuo](name)
+- [Mungai Ngure](name)
+- [Githinji Edwin](name)
+- [Okumu Sang](name)
+- [Nicodemus Luke](name)
+- [Njeru Omar](name)
+- [Steve Simiyu](name)
+- [George James](name)
+- [Arlene Grace](name)
+- [Maureen Lemayan](name)
+- [Titus Maingi](name)
+- [Tabitha Njenga](name)
+- [Barbara Muriithi](name)
+- [Bonaventure Mwenda](name)
+- [Sally Chebet](name)
+- [Muriuki Maya](name)
+- [Mugo Margaret](name)
+- [Muturi Claire](name)
+- [Elanor Githinji](name)
+- [Asunta Erastus](name)
+- [Walter Zakaria](name)
+- [Kamande Hezbon](name)
+- [Mathenge Jeremy](name)
+- [Ryan Shawn](name)
+- [Muthoni John](name)
+- [Gabriel Mbuthia](name)
+- [Travis Absalom](name)
+- [ George](name)
+- [Boniface Odhiambo](name)
+- [Arlene Shirleen](name)
+- [Wambugu Laura](name)
+- [Kerry Tanya](name)
+- [Onyango Norah](name)
+- [Njeri Damaris](name)
+- [Doreen Awuor](name)
+- [Sean Eugene](name)
+- [Shawn Kihara](name)
+- [Faith Wainaina](name)
+- [Akinyi Noelle](name)
+- [Melvin Makau](name)
+- [Laura Hezbon](name)
+- [kinuthia Mwaniki](name)
+- [Luisa Muli](name)
+- [Elvis John](name)
+- [Laura Ndegwa](name)
+- [Eli Rebecca](name)
+- [Njoki Gitau](name)
+- [Ahmed Nia](name)
+- [Sally Wanjala](name)
+- [Diana Tracy](name)
+- [Oduor Mburu](name)
+- [Esther Shem](name)
+- [Joseph Adhiambo](name)
+- [Ngetich Jane](name)
+- [Shelmith Murithi](name)
+- [Nehemiah Oduor](name)
+- [Opiyo Jeremy](name)
+- [Priscilla Sharrif](name)
+- [Evans Wilfridah](name)
+- [Crystabell Momanyi](name)
+- [Joe Doreen](name)
+- [Korir Elizabeth](name)
+- [Lucy Sammy](name)
+- [Imani Gitau](name)
+- [Muigai Mwaniki](name)
+- [Mugambi Mumbi](name)
+- [Raj Okeyo](name)
+- [Ngure Enock](name)
+- [Adhiambo Cynthia](name)
+- [Dorcas Kerubo](name)
+- [Chelsea Peninah](name)
+- [Ochieng Ezrah](name)
+- [Claire Koech](name)
+- [Muriuki Cynthia](name)
+- [Elijah Jack](name)
+- [Wambua Jerry](name)
+- [Annitah Jenipher](name)
+- [Rono Kimani](name)
+- [Ted David](name)
+- [Ainea Ouko](name)
+- [Mike Victoria](name)
+- [Ismail Kimutai](name)
+- [Bramwell Ndung'u](name)
+- [Murage Oluoch](name)
+- [Ng'ang'a Akinyi](name)
+- [Bonny Tabitha](name)
+- [Claudia Idah](name)
+- [Mwaura Wambua](name)
+- [Scola Musyoki](name)
+- [Ndirangu Kiprotich](name)
+- [Kevin Jackline](name)
+- [Wachira Ochieng](name)
+- [Naomi Essie](name)
+- [Elijah Paul](name)
+- [Winnie Molly](name)
+- [Naomi Violet](name)
+- [Diana Alex](name)
+- [Kibe Prestone](name)
+- [Nelly Melanie](name)
+- [Noor Njoroge](name)
+- [Frederick Juma](name)
+- [Shamsa Muigai](name)
+- [Luke Kipkoech](name)
+- [Frederick Dennis](name)
+- [Cyril Musyoki](name)
+- [Stephanie Kiarie](name)
+- [Tyra Muiruri](name)
+- [Omondi Eunice](name)
+- [Louis Musyoki](name)
+- [Ochieng Wilson](name)
+- [Momanyi Mona](name)
+- [Ngigi Muigai](name)
+- [Nyaga Wanjiku](name)
+- [Hassan Njeri](name)
+- [Agumba Wainaina](name)
+- [Francis Kiragu](name)
+- [Jamila Ndirangu](name)
+- [Sarah Nyongesa](name)
+- [Kinyua Jeremy](name)
+- [Mbogo Lucas](name)
+- [Gerald Wachira](name)
+- [Hussein Hildah](name)
+
+
+## intent:say_phone
+- [254723]
+- [254724]
+- [0723]
+- [0724]
+- [0716154164]
+- [0751823032]
+- [0745047167]
+- [0732812660]
+- [0702007331]
+- [0773147585]
+- [0752847435]
+- [0744341620]
+- [0724255780]
+- [0755684533]
+- [0774876163]
+- [0732510341]
+- [0731547555]
+- [0744167312]
+- [0742514071]
+- [0706521657]
+- [0758463736]
+- [0743850882]
+- [0744233588]
+- [0726777702]
+- [0776821080]
+- [0701625447]
+- [0756120732]
+- [0731788378]
+- [0732021720]
+- [0725158104]
+- [0738232752]
+- [0754620068]
+- [0706430250]
+- [0747458223]
+- [0738286741]
+- [0734314187]
+- [0718767567]
+- [0710638171]
+- [0775138828]
+- [0745343263]
+- [0754887777]
+- [0768366205]
+- [0771837378]
+- [0768123885]
+- [0755865208]
+- [0786705626]
+- [0767381336]
+- [0748732585]
+- [0764653443]
+- [0724635550]
+- [0781510074]
+- [0755481234]
+- [0785488456]
+- [0755876528]
+- [0735425106]
+- [0786755753]
+- [0764263804]
+- [0786426600]
+- [0758460071]
+- [0773821238]
+- [0720035845]
+- [0745270242]
+- [0712058708]
+- [0780826332]
+- [0767647350]
+- [0715801762]
+- [0720448743]
+- [0743518203]
+- [0731030857]
+- [0785617510]
+- [0722760705]
+- [0758048420]
+- [0733216363]
+- [0717563004]
+- [0718063280]
+- [254771242085]
+- [254750405245]
+- [254786740806]
+- [254751783703]
+- [254717303142]
+- [254722667512]
+- [254768618054]
+- [254723343311]
+- [254783464484]
+- [254715144660]
+- [254776074841]
+- [254738118265]
+- [254746648741]
+- [254773882241]
+- [254706365727]
+- [254762482070]
+- [254781520028]
+- [254722533450]
+- [254737245777]
+- [254728703522]
+- [254753456315]
+- [254773780680]
+- [254736061046]
+- [254767412108]
+- [254722027000]
+- [254775708626]
+- [254762683245]
+- [254775064638]
+- [254751217770]
+- [254747527414]
+- [254735051871]
+- [254785264085]
+- [254780184751]
+- [254733724245]
+- [254750826457]
+- [254762602808]
+- [254765082041]
+- [254714411550]
+- [254765272738]
+- [254744414532]
+- [254737447860]
+- [254756777627]
+- [254722055286]
+- [254740356623]
+- [254726385737]
+- [254774707142]
+- [254761123702]
+- [254703462325]
+- [254758036743]
+- [254752344227]
+- [254775300285]
+- [254784771804]
+- [254732777107]
+- [254748828440]
+- [254774111036]
+- [254751435453]
+- [254736407805]
+- [254784361208]
+- [254757577816]
+- [254774251604]
+- [254762750712]
+- [254734385353]
+- [254716547453]
+- [254726300635]
+- [254774207710]
+- [254711783261]
+- [254745780855]
+- [254717445648]
+- [254786426680]
+- [254776664077]
+- [254722553505]
+- [254789456123]
+- [254789456123]
+- [0712456789]
+- [0712457896]
+- [254789456563]
+
+## intent:train_style
+- Seminars & Workshops
+- "In-house Training Programes"
+- Individual Personalised Learning
+- Data Science Strategy Consulting
+- In-house Training Programmes
