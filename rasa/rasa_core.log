@@ -1246,3 +1246,668 @@ Traceback (most recent call last):
   File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
     if resp.headers is None:
 AttributeError: 'list' object has no attribute 'headers'
+2019-07-23 21:57:05,150 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 08:58:53,037 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:10:18,580 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:11:34,023 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:21:21,567 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:26:54,443 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:31:43,739 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:34:54,488 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:38:52,264 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1445, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1438, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1347, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 487, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 404, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 66, in uvloop.loop.Handle._run
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 197, in _socket_for_writes
+    return self.__database.client._socket_for_writes()
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1121, in _socket_for_writes
+    server = self._get_topology().select_server(writable_server_selector)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 226, in select_server
+    address))
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 184, in select_servers
+    selector, server_timeout, address)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 209, in _select_servers_loop
+    self._condition.wait(common.MIN_HEARTBEAT_INTERVAL)
+  File "/usr/lib/python3.6/threading.py", line 299, in wait
+    gotit = waiter.acquire(True, timeout)
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+2019-07-24 09:39:54,040 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 197, in _socket_for_writes
+    return self.__database.client._socket_for_writes()
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1121, in _socket_for_writes
+    server = self._get_topology().select_server(writable_server_selector)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 226, in select_server
+    address))
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 184, in select_servers
+    selector, server_timeout, address)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 200, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+2019-07-24 09:42:25,816 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 197, in _socket_for_writes
+    return self.__database.client._socket_for_writes()
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1121, in _socket_for_writes
+    server = self._get_topology().select_server(writable_server_selector)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 226, in select_server
+    address))
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 184, in select_servers
+    selector, server_timeout, address)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 200, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+2019-07-24 09:42:49,740 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:43:22,300 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 09:49:20,961 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1094, in _get_socket
+    with server.get_socket(self.__all_credentials) as sock_info:
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 1011, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 682, in check_auth
+    auth.authenticate(credentials, self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 565, in authenticate
+    auth_func(credentials, sock_info)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 540, in _authenticate_default
+    return _authenticate_scram(credentials, sock_info, 'SCRAM-SHA-1')
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/auth.py", line 264, in _authenticate_scram
+    res = sock_info.command(source, cmd)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/pool.py", line 584, in command
+    user_fields=user_fields)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/network.py", line 158, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/helpers.py", line 155, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+2019-07-24 10:40:19,072 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 11:14:54,975 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /version not found
+2019-07-24 11:15:49,224 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/ad56051e-4e7e-4076-9aa5-310ec3052116/tracker?include_events=ALL'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/ad56051e-4e7e-4076-9aa5-310ec3052116/tracker not found
+2019-07-24 11:15:52,333 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/conversations/ad56051e-4e7e-4076-9aa5-310ec3052116/tracker?include_events=ALL'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /conversations/ad56051e-4e7e-4076-9aa5-310ec3052116/tracker not found
+2019-07-24 13:08:14,055 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 13:24:40,700 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 13:25:01,687 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 13:30:52,136 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-24 13:56:09,147 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /version not found
+2019-07-24 13:59:12,324 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /version not found
+2019-07-24 14:00:46,743 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/version'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /version not found

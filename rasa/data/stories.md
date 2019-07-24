@@ -36,7 +36,7 @@
   - utter_how_many
 * how_many
   - utter_your_company
-* say_company
+* say_company OR say_name
   - utter_will_update
 * say_phone OR say_email
   - utter_thanks
@@ -169,6 +169,12 @@
 ## back one step
 * step_back
   - action_back
+  - action_listen
+
+## finished
+* done
+  - utter_thanks
+ 
 
 
 

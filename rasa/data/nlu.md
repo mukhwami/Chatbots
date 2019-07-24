@@ -1,3 +1,9 @@
+## intent:about_us
+- [learn About Us]
+- [learn about us]
+- [Learn About Us]
+- About Us
+
 ## intent:affirm
 - yes
 - indeed
@@ -7,116 +13,11 @@
 - alright
 - sure
 
-## intent:step_back
-- [error of cognition]
-- [Error of cognition]
-- [Error in cognition]
-
-## intent:products
-- Products & Services
-- products and services
-- services
-- products
-
-## intent:want_product
-- [Consultation](products)
-- [consultation]
-- [Visualization](products)
-- [data visualization]
-- [Data Analysis ](products)
-- [data analysis]
-- [Machine Learning](products)
-- [Artificial intelligence](products)
-
-## intent:say_when
-- [Begin Immeditely]
-- [Begin Within a week]
-- [Begin in 1 to 4 weeks]
-- [Begin 1 month and over]
-- [ months]
-- [days]
-- [Today]
-
-
-## intent:how_many
-- [for 1-10 people]
-- [for 11-50 people]
-- [for 51-200 people]
-- [for More than 200 people]
-
-## intent:say_company
-- [holdings ltd]
-- [limited]
-- [ltd]
-- [company]
-- [Ltd.]
-- [Africa limited]
-
-## intent:recruitment
-- [Recruitment]
-- [Recruits]
-- [New Recruitments]
-- [recruitment]
-
-## intent:get_job
-- [Jobs & Careers]
-- [jobs & careers]
-- [Careers]
-
-
-## intent:general_info
-- [General Information]
-- [general information]
-- [More General Information]
-- [More general information]
-
-## intent:about_us
-- [learn About Us]
-- [learn about us]
-- [Learn About Us]
-
-## intent:question
-- [Ask a question]
-- [ask a question]
-- [Ask a Question]
-- [What is the]
-- [How can i]
-- [where is the]
-- [who is the]
-- [when does]
-
-## intent:to_start
-- [Back to start]
-- [back to the start]
-- [back to the beginning]
-- [Restart]
-- [restart]
-- [restart]
-- [back to start]
-- [Back to the start]
-- [Back to start]
-- [main menu]
-
-## intent:location_and_hours
-- [Location & Office Hours]
-- [location]
-- [where is your office?]
-
-## intent:our_values
-- [know Our Values]
-- [our Mission]
-- [know our Vision]
-
 ## intent:contact_info
 - [Contact information]
 - [Contacts]
 - [contact info]
-
-## intent:our_projects
-- [Projects & Case Studies]
-- [projects and case studies]
-- [Case studies]
-
+- Contact information
 
 ## intent:deny
 - no
@@ -126,30 +27,25 @@
 - no way
 - not really
 
+## intent:general_info
+- [General Information]
+- [general information]
+- [More General Information]
+- [More general information]
+- More general information
+- General Information
+
+## intent:get_job
+- [Jobs & Careers]
+- [jobs & careers]
+- [Careers]
+- Jobs & Careers
+
 ## intent:get_training
-- [Trainings] 
+- [Trainings]
 - [Training Programmes]
 - [training programmes]
 - [Training]
-
-## intent:seminar
-- [Seminars & Worshops]
-- [seminars & workshops]
-- [Seminars and workshops]
-
-## intent:premium_internship
-- [Premium Internships]
-- [Premium intern]
-- [premier internships]
-
-## intent:seminar_types
-- [Accounting Analytics]
-- [accounting analytics]
-- [Big Data]
-- [big data]
-- [Sales Analytics]
-- [sales analytics]
-- [Machine Learning Training & Workshops]
 
 ## intent:goodbye
 - bye
@@ -184,24 +80,32 @@
 - [Hi!]
 - [Hey!]
 - [Hello, there]
+- Hey
+- Hi
+
+## intent:how_many
+- [for 1-10 people]
+- [for 11-50 people]
+- [for 51-200 people]
+- [for More than 200 people]
+- [More than 200]
 
 ## intent:intern_data_science
 - [data science]
 - [Data Science]
 - [Data science]
 - [data Science]
-
-## intent:intern_sales
-- [Sale Division]
-- [sales division]
-- [Sales Division]
-
+- Data Science
 
 ## intent:intern_marketing
 - [marketing department]
 - [Marketing Department]
 - [Marketing]
 
+## intent:intern_sales
+- [Sale Division]
+- [sales division]
+- [Sales Division]
 
 ## intent:internship
 - [internship]
@@ -209,7 +113,12 @@
 - [request for internship]
 - [intern request]
 - [intern]
+- Internship Request
 
+## intent:location_and_hours
+- [Location & Office Hours]
+- [location]
+- [where is your office?]
 
 ## intent:mood_great
 - [perfect]
@@ -236,6 +145,8 @@
 - [awesome]
 - [alright]
 - [fine thanks]
+- I'm okay
+- Good, you?
 
 ## intent:mood_unhappy
 - sad
@@ -249,6 +160,27 @@
 - extremely sad
 - so sad
 - [not so good]
+
+## intent:our_projects
+- [Projects & Case Studies]
+- [projects and case studies]
+- [Case studies]
+
+## intent:our_values
+- [know Our Values]
+- [our Mission]
+- [know our Vision]
+
+## intent:premium_internship
+- [Premium Internships]
+- [Premium intern]
+- [premier internships]
+
+## intent:products
+- Products & Services
+- products and services
+- services
+- products
 
 ## intent:qualification
 - BSc.
@@ -269,12 +201,51 @@
 - BSc. Statistics
 - BSc.
 
+## intent:question
+- [Ask a question]
+- [ask a question]
+- [Ask a Question]
+- [What is the]
+- [How can i]
+- [where is the]
+- [who is the]
+- [when does]
+- [do you have]
+- [do you do]
+
+## intent:recruitment
+- [Recruitment]
+- [Recruits]
+- [New Recruitments]
+- [recruitment]
+
+## intent:say_company
+- [holdings ltd]
+- [limited](company)
+- [ltd]
+- [company](company)
+- [Ltd.]
+- [Africa limited]
+- [Enterprises]
+- [Capital Limited]
+- [Publishers Limited]
+- [Kenya Ltd](company)
+- [Africa Limited](company)
+- [East Africa]
+- Group
+- Bank of Kenya
+- Insurance company
+- finance ltd
+- Investments Kenya
+
 ## intent:say_email
 - [@](email)
 - [@hotmail.com](email)
 - [@gmail.com](email)
 - [@yahoo.com](email)
 - [@outlook.com](email)
+- [info@]
+- [mail@]
 - StephanChitty@outlook.com
 - Dong.Everts1992@gmail.com
 - Emory_Vigil@outlook.com
@@ -380,6 +351,13 @@
 - tomouma@outlook.com
 - simonkamau25@gmail.com
 - mramba@yahoo.com
+- amau@outlook.com
+- phill02@work.ac.ke
+
+## intent:done
+- [finish and exit chat]
+- [Finish and exit chat]
+- [Finish and exit the chat]
 
 ## intent:say_name
 - [Jackson](PERSON)
@@ -1562,7 +1540,7 @@
 - [Mbogo Lucas](name)
 - [Gerald Wachira](name)
 - [Hussein Hildah](name)
-
+- Kimani Gachanja
 
 ## intent:say_phone
 - [254723]
@@ -1716,6 +1694,50 @@
 - [0712456789]
 - [0712457896]
 - [254789456563]
+- 254723478569
+- 254789456563
+- 254789365214
+
+## intent:say_when
+- [Begin Immeditely]
+- [Begin Within a week]
+- [Begin in 1 to 4 weeks]
+- [Begin 1 month and over]
+- [ months]
+- [days]
+- [Today]
+- Within a week
+
+## intent:seminar
+- [Seminars & Worshops]
+- [seminars & workshops]
+- [Seminars and workshops]
+
+## intent:seminar_types
+- [Accounting Analytics]
+- [accounting analytics]
+- [Big Data]
+- [big data]
+- [Sales Analytics]
+- [sales analytics]
+- [Machine Learning Training & Workshops]
+
+## intent:step_back
+- [error of cognition]
+- [Error of cognition]
+- [Error in cognition]
+
+## intent:to_start
+- [Back to start]
+- [back to the start]
+- [back to the beginning]
+- [Restart]
+- [restart]
+- [restart]
+- [back to start]
+- [Back to the start]
+- [Back to start]
+- [main menu]
 
 ## intent:train_style
 - Seminars & Workshops
@@ -1723,3 +1745,13 @@
 - Individual Personalised Learning
 - Data Science Strategy Consulting
 - In-house Training Programmes
+
+## intent:want_product
+- [Consultation](products)
+- [consultation]
+- [Visualization](products)
+- [data visualization]
+- [Data Analysis ](products)
+- [data analysis]
+- [Machine Learning](products)
+- [Artificial intelligence](products)

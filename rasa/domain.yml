@@ -4,7 +4,6 @@ intents:
 - contact_info
 - deny
 - general_info
-- get_general_info
 - get_job
 - get_training
 - goodbye
@@ -13,10 +12,8 @@ intents:
 - greet
 - how_many
 - intern_data_science
-- intern_finance_dep
 - intern_marketing
 - intern_sales
-- intern_sales_markerting
 - internship
 - location_and_hours
 - mood_great
@@ -35,17 +32,17 @@ intents:
 - say_when
 - seminar
 - seminar_types
-- start_with_greeting
 - step_back
 - to_start
 - train_style
-- training
 - want_product
+- done
 entities:
 - PERSON
+- company
 - email
-- products
 - name
+- products
 slots:
   email:
     type: text
@@ -53,6 +50,7 @@ slots:
     type: text
   name2:
     type: text
+    initial_value: ' '
   phone:
     type: text
 templates:
@@ -260,8 +258,10 @@ templates:
     buttons:
     - title: Back to start
       payload: Back to start
-    - title: More general information
+    - title: Get more general information
       payload: More general information
+    - title: I'm done, got what I needed.
+      payload: finish and exit chat
   utter_extra:
   - text: How else can I help you?
     buttons:
@@ -273,7 +273,7 @@ templates:
   - text: Great! Please type your question below, and we'll send you an email response
       soon.
   utter_alright:
-  - text: Alright {name2}, you'll be hearing from us soon
+  - text: Alright {name2}, you'll be hearing from us soon 🙂️
   utter_default:
   - text: Sorry, I didn't get that.
     buttons:
@@ -281,6 +281,8 @@ templates:
       payload: error of cognition
     - title: Go to Main Menu
       payload: Back to Start
+    - title: "I'm done, got what I needed"
+      payload: 'Finish and exit the chat'
 actions:
 - action_get_email
 - action_get_name
