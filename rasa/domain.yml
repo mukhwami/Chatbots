@@ -269,6 +269,8 @@ templates:
       payload: Back to Start
     - title: Ask a question
       payload: Ask a question
+    - title: I'm done, got what I needed.
+      payload: finish and exit chat
   utter_question:
   - text: Great! Please type your question below, and we'll send you an email response
       soon.
@@ -281,8 +283,7 @@ templates:
       payload: error of cognition
     - title: Go to Main Menu
       payload: Back to Start
-    - title: "I'm done, got what I needed"
-      payload: 'Finish and exit the chat'
+
 actions:
 - action_get_email
 - action_get_name

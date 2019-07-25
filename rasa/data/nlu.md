@@ -147,6 +147,7 @@
 - [fine thanks]
 - I'm okay
 - Good, you?
+- fantastic
 
 ## intent:mood_unhappy
 - sad

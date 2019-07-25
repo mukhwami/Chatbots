@@ -32,7 +32,7 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
-name_extras=['my','name','is',"i'm",'I','am','called']
+name_extras=['my','name','is',"i'm",'i','am','called','nameis',"name's",'names']
 
 class ActionGetName(Action):
     def name(self) -> Text:
