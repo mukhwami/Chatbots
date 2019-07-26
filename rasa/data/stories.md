@@ -30,8 +30,20 @@
 ## get services
 * products
   - utter_products
+
+## get services continued
 * want_product
+  - action_get_product
   - utter_when
+
+## want_chatbot
+* want_chatbot
+  - utter_chatbot
+* chatbot_type
+  - action_get_product
+  - utter_when
+
+## get services continued again
 * say_when
   - utter_how_many
 * how_many
@@ -44,11 +56,13 @@
 
 ## get job
 * get_job
+  - action_get_product
   - utter_job
   - utter_extra
 
 ## get internship
 * internship
+  - action_get_product
   - utter_happy
   - utter_internship_department
 
@@ -109,6 +123,7 @@
 * seminar
   - utter_seminar_types
 * seminar_types
+  - action_get_product
   - utter_ask_email
 * say_email
   - action_get_email
@@ -120,6 +135,7 @@
 
 ## premium internships
 * premium_internship
+  - action_get_product
   - utter_happy
   - utter_internship_department
 
@@ -174,6 +190,8 @@
 ## finished
 * done
   - utter_thanks
+
+
  
 
 

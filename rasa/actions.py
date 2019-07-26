@@ -72,3 +72,13 @@ class ActionGetPhone(Action):
 
         return [SlotSet("phone", text)]
 
+class ActionGetProduct(Action):
+    def name(self) -> Text:
+        return "action_get_product"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        text=tracker.latest_message['text']
+
+        return [SlotSet("product", text)]
+

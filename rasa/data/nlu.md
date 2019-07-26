@@ -183,6 +183,21 @@
 - services
 - products
 
+## intent:want_chatbot
+- [AI Assistant chatbot]
+- [ai assistant chatbot]
+- [AI assiatant]
+- [A.I. Assistant chatbot]
+
+## intent:chatbot_type
+- [Chatbot for Finance]
+- [Chatbot for IT Helpdesk]
+- [Chatbot for E-Commerce]
+- [Chatbot for Customer Service]
+- [Chatbot for Marketing]
+- [Chatbot for Sales]
+- [Chatbot for Human Resource]
+
 ## intent:qualification
 - BSc.
 - Bachelor of Science
@@ -1541,7 +1556,10 @@
 - [Mbogo Lucas](name)
 - [Gerald Wachira](name)
 - [Hussein Hildah](name)
-- Kimani Gachanja
+- [Kimani Gachanja]
+- [Jimmy]
+- [Matagaro]
+
 
 ## intent:say_phone
 - [254723]
@@ -1695,9 +1713,9 @@
 - [0712456789]
 - [0712457896]
 - [254789456563]
-- 254723478569
-- 254789456563
-- 254789365214
+- [254723478569]
+- [254789456563]
+- [254789365214]
 
 ## intent:say_when
 - [Begin Immeditely]
@@ -1749,10 +1767,10 @@
 
 ## intent:want_product
 - [Consultation](products)
-- [consultation]
+- [consultation](products)
 - [Visualization](products)
-- [data visualization]
+- [data visualization](products)
 - [Data Analysis ](products)
-- [data analysis]
+- [data analysis](products)
 - [Machine Learning](products)
-- [Artificial intelligence](products)
+

@@ -1,8 +1,10 @@
 intents:
 - about_us
 - affirm
+- chatbot_type
 - contact_info
 - deny
+- done
 - general_info
 - get_job
 - get_training
@@ -35,8 +37,8 @@ intents:
 - step_back
 - to_start
 - train_style
+- want_chatbot
 - want_product
-- done
 entities:
 - PERSON
 - company
@@ -52,6 +54,8 @@ slots:
     type: text
     initial_value: ' '
   phone:
+    type: text
+  product:
     type: text
 templates:
   utter_cheer_up:
@@ -93,9 +97,9 @@ templates:
     text: Which of the following departments do you feel best suited for?
   utter_job:
   - text: Awesome! We're always on the look out for talent to beef up our team. Please
-      check out the Careers section on our website and have a look at the available
-      positions. Any new openings will also be posted there, so feel free to check
-      back later.
+      check out the Careers section at http://nakala-analytics.co.ke/careers.html
+      and have a look at the available positions. Any new openings will also be posted
+      there, so feel free to check back later.
   utter_qualification:
   - buttons:
     - payload: BSc. Computer Science
@@ -174,8 +178,10 @@ templates:
       payload: Machine Learning
     - title: Artificial Intelligence
       payload: Artificial Intelligence
+    - title: A.I. Chatbots
+      payload: AI Assistant chatbots
   utter_when:
-  - text: Awesome! We need just a little more information to help us customize the
+  - text: Awesome! We just need a little more information to help us customize the
       service just for you. How soon would you like to start?
     buttons:
     - title: Immediately
@@ -248,7 +254,7 @@ templates:
   utter_projects:
   - text: We have had numerous triumphs and success stories with our partners and
       clients, some of which include PKF East Africa, Copy Cat Group Ltd, Vivo Active
-      Wear and The ABC Bank, among others.
+      Wear and The ABC Bank.
   utter_values:
   - text: 'Our Core Values are Customer Satisfaction, Respect and Honesty. Learn more
       about our mission, vision, service delivery strategy, team, skillset and projects
@@ -283,17 +289,33 @@ templates:
       payload: error of cognition
     - title: Go to Main Menu
       payload: Back to Start
-
+  utter_chatbot:
+  - text: Which kind of AI Assistant Chatbot service would interest you?
+    buttons:
+    - title: Customer Service
+      payload: Chatbot for Customer Service
+    - title: Marketing
+      payload: Chatbot for Marketing
+    - title: Sales
+      payload: Chatbot for Sales
+    - title: Human Resource
+      payload: Chatbot for Human Resource
+    - title: IT Helpdesk
+      payload: Chatbot for IT Helpdesk
+    - title: Finance
+      payload: Chatbot for Finance
 actions:
 - action_get_email
 - action_get_name
 - action_get_phone
+- action_get_product
 - utter_about_us
 - utter_alright
 - utter_ask_email
 - utter_ask_name
 - utter_ask_phone
 - utter_back
+- utter_chatbot
 - utter_cheer_up
 - utter_contact
 - utter_contact_info
