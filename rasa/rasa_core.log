@@ -2046,3 +2046,179 @@ Traceback (most recent call last):
   File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
     if resp.headers is None:
 AttributeError: 'list' object has no attribute 'headers'
+2019-07-27 18:43:09,522 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-27 19:03:27,386 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-27 19:08:01,370 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-29 17:28:08,021 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-29 23:03:09,728 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-30 20:08:52,318 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/socket.io/?EIO=3&transport=polling&t=Mn3sZzx&sid=cdf59836375d4343970736dadf81733a'
+NoneType: None
+2019-07-30 20:08:52,390 [ERROR]  Exception occurred while handling uri: 'ws://localhost:5005/socket.io/?EIO=3&transport=websocket&sid=cdf59836375d4343970736dadf81733a'
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 917, in handle_request
+    response = await response
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/asyncio_server.py", line 220, in handle_request
+    packets = await socket.handle_get_request(environ)
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/asyncio_socket.py", line 89, in handle_get_request
+    return await getattr(self, '_upgrade_' + transport)(environ)
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/asyncio_socket.py", line 128, in _upgrade_websocket
+    return await ws(environ)
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/async_drivers/sanic.py", line 122, in __call__
+    await self.handler(self)
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/asyncio_socket.py", line 152, in _websocket_handler
+    pkt = await ws.wait()
+  File "/home/abwao/.local/lib/python3.6/site-packages/engineio/async_drivers/sanic.py", line 131, in wait
+    data = await self._sock.recv()
+  File "/home/abwao/.local/lib/python3.6/site-packages/websockets/protocol.py", line 350, in recv
+    yield from self.ensure_open()
+  File "/home/abwao/.local/lib/python3.6/site-packages/websockets/protocol.py", line 512, in ensure_open
+    self.close_code, self.close_reason) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 1005 (no status code [internal]), no reason
+2019-07-30 22:21:39,538 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1451, in uvloop.loop.Loop.run_until_complete
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/run.py", line 206, in load_agent_on_start
+    None, endpoints.tracker_store, _broker
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 44, in find_tracker_store
+    domain=domain, host=store.url, event_broker=event_broker, **store.kwargs
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 228, in __init__
+    self._ensure_indices()
+  File "/home/abwao/.local/lib/python3.6/site-packages/rasa/core/tracker_store.py", line 235, in _ensure_indices
+    self.conversations.create_index("sender_id")
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1971, in create_index
+    self.__create_index(keys, kwargs, session, **cmd_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 1860, in __create_index
+    with self._socket_for_writes() as sock_info:
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/collection.py", line 197, in _socket_for_writes
+    return self.__database.client._socket_for_writes()
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/mongo_client.py", line 1121, in _socket_for_writes
+    server = self._get_topology().select_server(writable_server_selector)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 226, in select_server
+    address))
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 184, in select_servers
+    selector, server_timeout, address)
+  File "/home/abwao/.local/lib/python3.6/site-packages/pymongo/topology.py", line 200, in _select_servers_loop
+    self._error_message(selector))
+pymongo.errors.ServerSelectionTimeoutError: localhost:27017: [Errno 111] Connection refused
+2019-07-30 22:48:00,180 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-30 23:28:15,570 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-30 23:29:24,731 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-30 23:29:35,614 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-30 23:29:43,707 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'
+2019-07-31 09:38:38,687 [ERROR]  Exception occurred in one of response middleware handlers
+Traceback (most recent call last):
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic/app.py", line 958, in handle_request
+    request, response
+  File "/home/abwao/.local/lib/python3.6/site-packages/spf/framework.py", line 543, in _run_response_middleware
+    _response = await _response
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/extension.py", line 266, in unapplied_cors_response_middleware
+    set_cors_headers(req, resp, context, res_options)
+  File "/home/abwao/.local/lib/python3.6/site-packages/sanic_cors/core.py", line 248, in set_cors_headers
+    if resp.headers is None:
+AttributeError: 'list' object has no attribute 'headers'

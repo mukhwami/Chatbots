@@ -253,6 +253,9 @@
 - Insurance company
 - finance ltd
 - Investments Kenya
+- Safaricom PLC
+- Nakala Analytics Limited
+
 
 ## intent:say_email
 - [@](email)
@@ -384,6 +387,8 @@
 - John
 - Samuel
 - Peter
+- Bob
+- Mickey
 - Dennis
 - Erick
 - Joseph

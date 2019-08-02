@@ -4,11 +4,11 @@
 	<title>Suzie - Chatbot</title>
 	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
-<body style="min-height: 3500px; background-color: #c1cdcd" >
+<body style="min-height: 1000px; background-color: #c1cdcd" >
 	<div>
 		<h1 style= 'text-align: center; margin: 70px;'>This is a dummy webpage to facilitate testing</h1>
 	</div>
-	<div id="webchat"/>
+	<div id="webchat">
 		<script src="{{ url_for('static', filename='webchat-v0.5.9.js') }}"></script>
 		<script>
   			WebChat.default.init({
@@ -19,7 +19,7 @@
 			    socketUrl: "http://35.188.182.146:5005",
 			    socketPath: "/socket.io/",
 			    title: "Suzie",
-			    subtitle: "Nakala Chatbot",
+			    subtitle: "AI Assistant",
 			    inputTextFieldHint: "Type a message... ('restart' for main menu)",
 			    connectingText: "Waiting for server...",
 			    hideWhenNotConnected: false,
@@ -38,5 +38,6 @@
 			    }
 			  })
 			</script>
-		
+	</div>
+</body>
 </html>
